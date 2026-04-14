@@ -1,0 +1,257 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #d9b2a8;
+    color: #5a1116;
+}
+
+.navbar {
+    background-color: #7a1f24 !important;
+    border-bottom: none !important;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff7f2 !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.container {
+    max-width: 1250px;
+}
+
+.editorial-hero {
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    gap: 18px;
+    background: #7a1f24;
+    color: #fff7f2;
+    padding: 28px;
+    margin-top: 25px;
+    border: 8px solid #e8cfc7;
+}
+
+.hero-text-block h1 {
+    font-size: 110px;
+    line-height: 0.9;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.hero-name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: normal;
+}
+
+.hero-text-block p {
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.hero-image-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border: 6px solid #f7ece6;
+}
+
+.editorial-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.editorial-card {
+    background: #f7ece6;
+    border: 8px solid #d1a19a;
+    padding: 22px;
+    min-height: 250px;
+}
+
+.editorial-card h2 {
+    font-size: 52px;
+    line-height: 0.95;
+    color: #7a1f24;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+}
+
+.editorial-card p,
+.editorial-card li,
+.editorial-card span {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4d1719;
+}
+
+.image-box {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border: 5px solid #e8d5cf;
+    background: #ead9d3;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.about-card .image-box img {
+    object-position: center 80%;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.skills-grid span {
+    display: block;
+    background: #7a1f24;
+    color: #fff7f2;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.mini-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.mini-gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border: 4px solid #ead9d3;
+    background: #ead9d3;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.story-box {
+    background: #7a1f24;
+    color: #fff7f2;
+    padding: 40px 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 3px solid #d9b2a8;
+}
+
+.circle-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.circle-item {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    background: #7a1f24;
+    color: #fff7f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.edu-box {
+    background: #7a1f24;
+    color: #fff7f2;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.edu-box h3,
+.edu-box p {
+    color: #fff7f2;
+    margin: 0 0 8px 0;
+}
+
+footer {
+    color: #7a1f24 !important;
+}
+
+.btn,
+button {
+    background-color: #7a1f24 !important;
+    border-color: #7a1f24 !important;
+    color: #fff7f2 !important;
+}
+
+@media (max-width: 900px) {
+    .editorial-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text-block h1 {
+        font-size: 65px;
+    }
+
+    .hero-name {
+        font-size: 38px;
+    }
+
+    .editorial-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stories-grid,
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
