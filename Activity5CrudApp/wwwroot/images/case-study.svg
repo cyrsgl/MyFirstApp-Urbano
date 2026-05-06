@@ -1,0 +1,9 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#E8CFC7"/>
+  <rect x="48" y="48" width="704" height="704" rx="24" fill="#F7ECE6" stroke="#7A1F24" stroke-width="12"/>
+  <circle cx="400" cy="295" r="118" fill="#D9B2A8"/>
+  <path d="M223 616C223 518.798 301.798 440 399 440H401C498.202 440 577 518.798 577 616V636H223V616Z" fill="#7A1F24"/>
+  <rect x="120" y="92" width="206" height="46" rx="23" fill="#7A1F24"/>
+  <text x="150" y="124" fill="#FFF7F2" font-family="Georgia, serif" font-size="28" letter-spacing="2">THE CASE</text>
+  <text x="157" y="694" fill="#7A1F24" font-family="Georgia, serif" font-size="34" letter-spacing="3">CASE STUDY IMAGE</text>
+</svg>

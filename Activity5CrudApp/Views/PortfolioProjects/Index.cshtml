@@ -1,0 +1,42 @@
+@model IEnumerable<Activity4FrontendApp.Models.PortfolioProject>
+
+@{
+    ViewData["Title"] = "Activity 5 - CRUD Application";
+}
+
+<h1>Activity 5 - Simple C# CRUD Application</h1>
+
+<p>This page is for the Activity 5 CRUD application.</p>
+
+<a asp-controller="PortfolioProjects" asp-action="Create" class="btn btn-primary mb-3">
+    Add New Record
+</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Technology</th>
+            <th>Project Link</th>
+            <th>Date Created</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var project in Model)
+        {
+            <tr>
+                <td>@project.Name</td>
+                <td>@project.Description</td>
+                <td>@project.Technology</td>
+                <td>@project.ProjectLink</td>
+                <td>@project.DateCreated.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@project.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@project.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
