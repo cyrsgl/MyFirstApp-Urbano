@@ -1,16 +1,20 @@
 # MyFirstApp-Urbano
 
-This is my Activity 3 project for Version Control System using Git.
+This repository contains my C# application activities.
 
-## Features
-- Simple C# console application
-- Input student name
-- Input student grade
-- Displays result and remarks
+## Activity 4 - Frontend App
 
-## Git Commands Demonstrated
-- Commit
-- Push
-- Pull
-- Revert
-- Branching
+This section contains the frontend pages such as Home, About, and Projects.
+
+## Activity 5 - Simple C# CRUD Application
+
+This section contains a simple ASP.NET Core MVC CRUD application using MySQL.
+
+### CRUD Features
+
+- Create new portfolio project
+- View project list
+- View project details
+- Edit project information
+- Delete project records
+- Store records in MySQL database
